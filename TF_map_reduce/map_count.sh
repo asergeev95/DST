@@ -1,0 +1,9 @@
+#!/usr/bin/python
+import sys
+text = sys.stdin.read().lower().split()
+def map(text):
+	l = list()
+	for el in text:
+		l.append((el,1))
+	return l
+print(map(text))

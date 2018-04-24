@@ -1,0 +1,2 @@
+cat text.txt text.txt| ./map_count.sh | ./reduce_count.sh | ./map_freq.sh 
+
