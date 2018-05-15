@@ -11,4 +11,3 @@ def map(text):
 	for el in text:
 		print(el+"\t1")
 		#return(el+"\t1")
-map(text)
